@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="assignment.css">
+  </head>
+  <body >
+        <div class="contact-form">
+          <form action="assignment.php" method="post" enctype="multipart/form-data"> 
+            <h1 class="title2">Contact Us</h1>
+        <div class="input-container">
+        <label>Enter Name =</label>
+           <input type="text" name="firstname" placeholder="First Name" class="input">
+            <input type="text" name="lastname" placeholder="Last Name" class="input">
+            </div>
+			<div class="input-container">
+      <label>DOB =</label>
+      <input type="date" name="calender" class="input"> <br>
+	  </div>
+	  <div class="input-container">
+	  <label>Gender =</label>
+	  <input type="radio" name="gender" value="Male">Male
+      <input type="radio" name="gender"value="female"> Female
+      <input type="radio" name="gender"value="others"> Others
+	  </div>
+	  <div class="input-container" >
+	  <label >ID Proof=</label>
+            <select name="select"class="input">
+               <option value="Aadhar card">Aadhar Card</option>
+               <option value="License">License</option>
+               <option value="voter ID">Voter ID</option>
+               <option value="Pan Card">Pan Card</option>
+           </select></div>
+		   <div class="input-container">
+           <label for="">Upload Proof=</label>
+           <input type="file" name="Document" class="input2"></div>
+		   <div class="input-container">
+           <label>Upload Image=</label>
+           <input type="file" name="uploadfile" class="input2"></div>
+      <input type="submit" value="Submit" class="input" >
+      <input type="reset" value="Reset" class="input" >
+	  <BR>
+	   <div style="text-align:center;FONT-SIZE:35;color:black;text-shadow:2px 2px grey;font-weight:bold;">
+	  <label>THANKS FOR SUBMITTING</LABEL> </div>
+	  </div>
+    </form>
+    </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.contact-form {
+  background-color: #B5838D;
+  MARGIN-LEFT:3IN;
+	padding: 10px;
+	WIDTH:650PX;
+	HEIGHT:540PX;
+	border-bottom:10px solid black;
+	border-left:10px solid black;
+	border-top:10px solid black;
+	border-right:10px solid black;
+}
+form {
+  padding: 1.4rem 2.2rem;
+  z-index: 10;
+  overflow: hidden;
+  position: relative;
+}
+.input-container {
+  position: relative;
+  margin: 1rem 0;
+}
+.input {
+  width: 27%;
+  border: 2px solid black;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.90rem;
+  border-radius: 25px;
+}
+.input2{
+  width: 44%;
+  border: 2px solid black;
+  padding: 0.6rem 1.2rem;
+  font-size:0.95rem;
+  border-radius: 25px;
+}
