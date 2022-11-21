@@ -1,13 +1,24 @@
 .contact-form {
-  background-color: #B5838D;
+  background:linear-gradient(60deg, #534666, #138086);
   MARGIN-LEFT:3IN;
 	padding: 10px;
 	WIDTH:650PX;
 	HEIGHT:540PX;
-	border-bottom:10px solid black;
-	border-left:10px solid black;
-	border-top:10px solid black;
-	border-right:10px solid black;
+	border-bottom:5px solid black;
+	border-left:5px solid black;
+	border-top:5px solid black;
+	border-right:5px solid black;
+}
+body{
+  background-image:URL("bt1.jpg");	
+}
+.title2{
+	font-size:2.5rem;
+	text-align:center;
+	margin-top:0.2;
+}
+label{
+	font-size:1.3rem;
 }
 form {
   padding: 1.4rem 2.2rem;
